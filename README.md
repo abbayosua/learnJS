@@ -1,3 +1,4 @@
 ## This is a documentation of learnJS
 
-1. [Modified Number](https://abbayosua.github.io/learnJS/modified%20number/)
+The lists of
+1. [Modified Number](https://abbayosua.github.io/learnJS/modifiednumber/)
