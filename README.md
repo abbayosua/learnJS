@@ -1,3 +1,3 @@
 ## This is a documentation of learnJS
 
-Nothing to see here ...
+1. [Modified Number](https://abbayosua.github.io/learnJS/modified%20number/)

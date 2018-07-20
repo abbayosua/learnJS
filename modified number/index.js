@@ -16,4 +16,4 @@ negative_operation = five + negative;
 //Operation - Level 2
 let word1 = "Whatsaupp ";
 let word2 = "mate ";
-phrase = '${word1} and ${word2}';
+phrase = ${word1} and ${word2};
