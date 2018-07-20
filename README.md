@@ -1,0 +1,3 @@
+## This is a documentation of learnJS
+
+Nothing to see here ...
