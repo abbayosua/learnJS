@@ -7,6 +7,7 @@ The lists of
 2. [Strings Manipulation](https://abbayosua.github.io/learnJS/stringmanipulation)
 3. [Number Comparison](https://abbayosua.github.io/learnJS/numbercomparison)
 4. [Math Calculator](https://abbayosua.github.io/learnJS/mathcalculator)
+5. [Cube Math Calc](https://abbayosua.github.io/learnJS/cubemath)
 5. [Time Manipulation](https://abbayosua.github.io/learnJS/timemanipulation)
 5. [Address Book](https://abbayosua.github.io/learnJS/addressbook)
 6. [Todo](https://abbayosua.github.io/glintstodo)
