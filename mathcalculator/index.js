@@ -7,7 +7,7 @@ console.log("level 15");
 console.log("");
 
 function calculate () {
-let chooseOperation = prompt("Choose an Operation (like + , or - , or /)");
+let chooseOperation = prompt("Choose an Operation (like + , or - , or /, or modulo)");
 
 let firstnumber = prompt("insert first number");
 let secondnumber = prompt("insert second number");
@@ -24,6 +24,9 @@ switch (chooseOperation) {
     break;
   case "/":
     divide();
+    break;
+  case "modulo":
+    modulo();
     break;
   default:
     dumbOperation();
@@ -43,6 +46,9 @@ function multiply() {
 }
 function divide() {
   operationResult = alert(parseFloat(firstnumber) / parseFloat(secondnumber));
+}
+function modulo() {
+  alert("man, i dont have any clue about modulo.");
 }
 function dumbOperation() {
   operationResult = alert(
