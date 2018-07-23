@@ -15,12 +15,19 @@ let secondnumber = prompt("insert second number");
 switch (chooseOperation) {
   case "+":
     add();
+    break;
   case "-":
     substract();
+    break;
   case "*":
     multiply();
+    break;
   case "/":
     divide();
+    break;
+  default:
+    dumbOperation();
+    break;
 }
 
 
@@ -41,5 +48,6 @@ function dumbOperation() {
   operationResult = alert(
     firstnumber + " + " + secondnumber + " = " + firstnumber + secondnumber
   );
+  alert("nice dude.");
 }
 }
