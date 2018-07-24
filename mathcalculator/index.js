@@ -36,26 +36,28 @@ function calculate() {
   }
 
   function add() {
-    let operationResult = alert(parseInt(firstnumber) + parseInt(secondnumber));
+    let operationResult = parseInt(firstnumber) + parseInt(secondnumber);
+    document.getElementById("results").innerHTML = firstnumber + " + " + secondnumber + " = " + operationResult;
   }
   function substract() {
-    let operationResult = alert(parseInt(firstnumber) - parseInt(secondnumber));
+    let operationResult = parseInt(firstnumber) - parseInt(secondnumber);
+    document.getElementById("results").innerHTML = firstnumber + " - " + secondnumber + " = " + operationResult;
   }
   function multiply() {
-    let operationResult = alert(parseInt(firstnumber) * parseInt(secondnumber));
+    let operationResult = parseInt(firstnumber) * parseInt(secondnumber);
+    document.getElementById("results").innerHTML = firstnumber + " * " + secondnumber + " = " + operationResult;
   }
   function divide() {
-    let operationResult = alert(
-      parseFloat(firstnumber) / parseFloat(secondnumber)
-    );
+    let operationResult = parseFloat(firstnumber) / parseFloat(secondnumber);
+    document.getElementById("results").innerHTML = firstnumber + " / " + secondnumber + " = " + operationResult;
   }
   function modulo() {
-    alert("man, i dont have any clue about modulo.");
+    alert("modulo, is that food?");
+    document.getElementById("results").innerHTML = "hmm";
   }
   function dumbOperation() {
-    let operationResult = alert(
-      firstnumber + " + " + secondnumber + " = " + firstnumber + secondnumber
-    );
-    alert("nice dude.");
+    let operationResult = firstnumber + " + " + secondnumber + " = " + firstnumber + secondnumber ;
+    alert(operationResult);
+    document.getElementById("results").innerHTML = operationResult;
   }
 }
