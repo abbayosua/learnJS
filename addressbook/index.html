@@ -8,12 +8,17 @@
 <body>
     <div class="center">
         Address Book
-        <div><button onclick="addAddress()">Add Address</button></div>
     </div>
-    
+
+    <form class="container-form">
+        <input id="theInput" type="text">
+        <button onclick="addAddress()">Add</button>
+    </form>    
+
     <div id="peopleAddress">
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
     <script src="index.js"></script>
 </body>
 
