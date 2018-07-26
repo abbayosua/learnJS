@@ -4,21 +4,23 @@ function receiveSpam() {
     let meCheck = theValidation.test(theEmail)
 
     
-    /*if (meCheck == true) {
+    if (meCheck == true) {
         let thePunisher = $('#theInfo').text('We have sent 1000 Spam Mail to your account, Enjoy');
     } else {
         alert("are you sure doesnt want to receive Spam for entire of your life? The email that you input is invalid");
-    }*/
+    }
 
-    switch (meCheck) {
+/*    switch (meCheck) {
         case true:
         let thePunisher = $('#theInfo').text('We have sent 1000 Spam Mail to your account, Enjoy');
         break;
         case false:
         alert("are you sure doesnt want to receive Spam for entire of your life? The email that you input is invalid");
         break;
+        default:
+        
     }
-
+*/
     //prevent default dude
     event.preventDefault();
 }

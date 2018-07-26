@@ -5,27 +5,35 @@ body {
   background-size: cover;
 }
 
-.all-container {
-  background-color: rbga(255, 255, 255, 0.5);
-}
-
 .the-title {
   text-align: center;
   font-size: 3em;
+  font-family: 'Patua One', cursive;
+  color: white;
   margin-top: 2em;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: rgba(0,0,0,0.5);
+
 }
 
 .form-input {
   text-align: center;
+
 }
 
 .the-input {
   width: 30em;
-  height: 2em;
+  height: 3em;
+  font-size: 20px;
+  text-align: center;
+  -webkit-border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .the-button {
   text-align: center;
+  font-family: 'Patua One', cursive;
 }
 
 button.the-button {
