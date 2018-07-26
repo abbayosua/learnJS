@@ -11,3 +11,4 @@ The lists of
 5. [Time Manipulation](https://abbayosua.github.io/learnJS/timemanipulation)
 5. [Address Book](https://abbayosua.github.io/learnJS/addressbook)
 6. [Todo](https://abbayosua.github.io/glintstodo)
+7. [Email Validator](https://abbayosua.github.io/learnJS/emailvalidator)
