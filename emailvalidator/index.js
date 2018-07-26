@@ -7,7 +7,7 @@ function receiveSpam() {
     if (meCheck == true) {
         let thePunisher = $('#theInfo').text('We have sent 1000 Spam Mail to your account, Enjoy')
     } else {
-        alert("are you sure doesnt want to receive Spam for entire of your life?")
+        alert("are you sure doesnt want to receive Spam for entire of your life? The email that you input is invalid")
     }
 
     //prevent default dude
